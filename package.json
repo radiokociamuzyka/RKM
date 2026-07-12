@@ -1,0 +1,37 @@
+{
+  "name": "rkm",
+  "version": "0.0.1",
+  "description": "Radio Kocia Muzyka",
+  "keywords": [
+    "rkm",
+    "radio",
+    "kocia",
+    "muzyka"
+  ],
+  "homepage": "https://github.com/radiokociamuzyka/RKM#readme",
+  "bugs": {
+    "url": "https://github.com/radiokociamuzyka/RKM/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radiokociamuzyka/RKM.git"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Sett Sarverott",
+  "type": "module",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "vitest",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@go-task/cli": "^3.50.0",
+    "husky": "^9.1.7",
+    "octokit": "^5.0.5",
+    "skills": "^1.5.16",
+    "vitest": "^4.1.10"
+  }
+}
