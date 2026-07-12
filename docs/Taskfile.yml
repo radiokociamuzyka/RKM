@@ -1,0 +1,13 @@
+# https://taskfile.dev
+
+version: '3'
+
+
+tasks:
+  build:
+    cmds:
+      - uv export --format requirements.txt > requirements.txt
+  default:
+    cmds:
+      - 
+    silent: true
