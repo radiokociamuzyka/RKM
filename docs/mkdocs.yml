@@ -2,6 +2,10 @@ site_name: RadioKociaMuzyka - dokumentacja
 
 docs_dir: .
 
+nav:
+  - 'index.md'
+  - 'about.md'
+
 theme: 
   name: readthedocs
   color_mode: dark
