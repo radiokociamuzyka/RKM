@@ -1,3 +1,8 @@
 site_name: RadioKociaMuzyka - dokumentacja
 
 docs_dir: .
+
+theme: 
+  name: readthedocs
+  color_mode: dark
+  logo: https://avatars.githubusercontent.com/u/207432944?s=64&v=4
